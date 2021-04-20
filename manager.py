@@ -18,4 +18,5 @@ class manager:
         """
         while True:
             if self.camera_device.is_detecting():
-                self.alarm_device.switch_alarm()
+               self.alarm_device.switch_alarm()
+
